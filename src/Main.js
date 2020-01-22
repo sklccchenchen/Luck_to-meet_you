@@ -44,7 +44,7 @@ class Main extends Component {
                     _this.html(str.substring(0, index));
                     clearTimeout(timer);
                 };
-                setTimeout(fn, 160)
+                setTimeout(fn, 180)
             };
             // 延迟1s开始
             setTimeout(timer, 1000);
